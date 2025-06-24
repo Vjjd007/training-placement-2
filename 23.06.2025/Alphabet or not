@@ -1,0 +1,6 @@
+public class CheckAlphabet {
+    public static void main(String[] args) {
+        char ch = 'A';
+        System.out.println(Character.isLetter(ch) ? "Alphabet" : "Not Alphabet");
+    }
+}
